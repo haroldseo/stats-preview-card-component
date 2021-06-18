@@ -6,24 +6,25 @@
     <!-- displays site properly based on user's device -->
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
     <div class="container">
-      <div class="image-header">
-        <img src="images/image-header-mobile.jpg" alt="" />
-        <div class="color-overlay"></div>
-      </div>
-      <div class="main">
-        <h1>Get <span>insights</span> that help your business grow.</h1>
-        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
-        <ul>
-          <li>10k+ <span>COMPANIES</span></li>
-          <li>314 <span>TEMPLATES</span></li>
-          <li>12M+ <span>QUERIES</span></li>
-        </ul>
+      <div class="split bg-primary">
+        <div class="main container--narrow">
+          <h1>Get <span>insights</span> that help your business grow.</h1>
+          <p class="text-light">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+          <ul>
+            <li>10k+ <span class="text-light">COMPANIES</span></li>
+            <li>314 <span class="text-light">TEMPLATES</span></li>
+            <li>12M+ <span class="text-light">QUERIES</span></li>
+          </ul>
+        </div>
+        <div class="color-overlay">
+          <img src="images/image-header-desktop.jpg" alt="" />
+        </div>
       </div>
     </div>
   </body>
